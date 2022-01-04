@@ -1,0 +1,147 @@
+@import url('https://fonts.googlepis.com/css?family=Raleway');
+@import url('https://fonts.googlepis.com/css?family=Playfair+Display:700|Raleway');
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+
+html, body{
+    margin: 0;
+    padding:0;
+    height:100%;
+    width: 100%;
+    background-color: lightgray;
+}
+h2{
+    font-family:'Payfair Display',serif;
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+p{
+    font-family: 'Raleway',serif;
+    color: rgb(51, 54, 56);
+    font-size: 140%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 300;
+}
+img{
+    text-align: center;
+    max-width: 80%;
+    height: auto;
+    width: auto;
+}
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("img/cover.jpg")no-repeat 0% 120%;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+.intro.inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+h3{
+    font-family:'The Nautigal';
+    font-size: 400%;
+    font-weight: 1200;
+    font-style: italic;
+    color:aliceblue ;
+    text-align:center;
+    padding: 25% 0% 0%;
+    text-shadow: 0px 0px 250px #000;
+}
+.content p{
+    color: aliceblue;
+}
+.inner{
+    max-width: 600px;
+    margin: auto;
+    font-size: 170%;
+    line-height: 1.6;
+    padding: 10px;
+   
+    
+}
+nav {
+    float: left;
+    padding: 5% 5% 0% 0%;
+    height: 58px;
+}
+nav ul{
+    list-style: none;
+    float: left;
+}
+nav ul li{
+    font-family: 'Raleway',sans-serif;
+    font-size: 120%;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul,nav:active ul{
+    display: none;
+    padding: 8px 0;
+    left: 45px;
+    top: 70px;
+    width: 20%;
+    z-index: 1000;
+}
+nav li{
+    width: 100%;
+    padding: 8px 0 10px 7px;
+    margin: 0;
+}
+nav:hover ul{
+    display: block;
+    position: absolute;
+}
+#menu-icon{
+    width: 30px;
+    height: 26px;
+    background: url(img/icons8-menu-24.png);
+    display: inline-block;
+    margin:10px 10px 0 90px;
+}
+/*Navigation ended*/
+.left-col{
+    width: 95%;
+    float: left;
+    margin: 4% 4% 4% 4%;
+}
+
+.one-third-port{
+    width:29.333%;
+    padding: 2%;
+    float: left;
+}
+.one-two-port{
+    width:40%;
+    padding:5%;
+    float: left;
+}
+.h{
+    width: 29.333333%;
+    float: left;
+    padding: 2%;
+}
+
+.contact p{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.contact a {
+    color: rgb(66, 63, 63);
+}
+.clearfix{
+    clear: both;
+    height: 3%;
+}
